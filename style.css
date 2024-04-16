@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aliceblue;
+}
+.navigator{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgba(134, 134, 134, 0.747);
+}
+.navigator a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    box-shadow: 2px 2px 2px 2px  rgba(153, 153, 153, 0.747);
+}
+.navigator ul{
+    gap: 20px;
+    display: flex;
+    list-style: none;
+}
+.block1{
+    display: flex;
+    background-image: url("../Git-assignment/images/morgoth_and_ungoliant_by_alvarofernag_deypte9-fullview.jpg");
+    background-color: rgb(145, 145, 145);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    justify-content: center;
+}
+.block1 h3{
+    padding-top: 400px;
+    color: white;
+    font-size: 300;
+}
