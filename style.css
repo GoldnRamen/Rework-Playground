@@ -62,13 +62,28 @@ footer h6{
     text-decoration: none;
     color: black;
     padding: 10px;
+    box-shadow: gray;
 }
 .foot-line2 ul{
     gap: 20px;
     display: flex;
-    flex-direction: row;
     list-style: none;
 }
 .foot-line2 ul:hover a{
-    background-color: azure;
+    background-color: gray;
+    color:black;
+}
+.block2{
+    padding: 30px 20px;
+}
+.block2 h4{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.block2 h6{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.block2 h5{
+    text-align: right;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
