@@ -41,7 +41,7 @@ body{
 }
 footer{
     display: grid;
-    height: 130px;
+    height: 230px;
     grid-template-rows: 1fr 3fr;
     justify-content: space-between;
     padding: 10px;
@@ -113,4 +113,24 @@ footer h6{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: justify;
     padding: 100px 100px;
+}
+form{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 40px;
+}
+label{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: space-around;
+    padding-left: 50px;
+}
+button{
+    background-color: brown;
+    color: aliceblue;
+    border-radius: 5px;
+    width: 100px;
+    margin-left: 20px;
+}
+hr{
+    width: 1300px;
 }
