@@ -27,7 +27,7 @@ body{
 }
 .block1{
     display: flex;
-    background-image: url("../Git-assignment/images/morgoth_and_ungoliant_by_alvarofernag_deypte9-fullview.jpg");
+    background-image: url("./images/morgoth_and_ungoliant_by_alvarofernag_deypte9-fullview.jpg");
     background-color: rgb(145, 145, 145);
     background-position: center;
     background-repeat: no-repeat;
